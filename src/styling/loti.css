@@ -26,9 +26,13 @@
 .loti:hover {
     opacity: 1;
     transition: 0.1s;
-    
+    transform: scale(1.1);
+    z-index: 500000;
 }
 
+.loti:hover img {
+    transform: rotate(0deg)
+}
 .lotusIcon {
     transform: rotate(-45deg);
     width: 80%;
@@ -37,8 +41,11 @@
     position: absolute;
     top: 10%;
     left: 10%;
-    
-    
+    transition: 0.1s;
+}
+
+.lotusIcon:hover {
+    transform: rotate(0deg);
 }
 
 .b1 {
