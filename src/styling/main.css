@@ -6,4 +6,27 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
+}
+
+.name {
+    display: inline-block;
+    padding: 20vh 0vw 0vw 20vw;
+    transition: 0.8s;
+}
+
+.lowimpactTitle {
+    color: #343434;
+    font-family: 'Century Gothic';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 10vh;
+}
+
+.highimpactTitle {
+    color: #fff;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 13vh;
+    position: absolute;
 }
